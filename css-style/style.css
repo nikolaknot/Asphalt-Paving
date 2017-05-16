@@ -1,0 +1,30 @@
+.upper-section {
+  background-color: #2F3237;
+  height: 500px;
+  width: 100%;
+}
+
+.bottom-section {
+  background-color: #F5F4F0;
+  height: 1000px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #2F3237;
+  height: 300px;
+}
+
+.asphalt-paving {
+  background-color: #3F4247;
+  height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main-div {
+  background-color: #FFFFFF;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
