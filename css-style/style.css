@@ -1,10 +1,149 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+/* Main heading
+ */
+ h1 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+ }
+
+ /* Secondary heading */
+
+ h2 {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+ }
+
+/* Upper section which contains navigation bar,logo and main image */
+
 .upper-section {
   background-color: #2F3237;
   height: 500px;
   width: 100%;
 }
 
-.bottom-section {
+.asphalt-paving {
+  background-color: #3F4247;
+  height: 500px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#p-logo {
+  margin: 30px 0 0 50px;
+  float: left;
+}
+
+#p-logo-txt {
+  color: #FFFEFF;
+  font-size: 20px;
+  float: left;
+  margin: 0;
+  padding: 50px 0 0 20px;
+  font-weight: 800;
+}
+
+.top-right {
+  float: right;
+  margin-top: 50px;
+}
+.top-right-txt {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  color: #AFAFAD;
+}
+
+.top-right-txt:last-child {
+  margin-right: 50px;
+}
+
+.top-right-link {
+  text-decoration: none;
+    color: #AFAFAD;
+
+}
+.img-div {
+  background-color: black;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 180px;
+}
+
+.main-div {
+  background-color: #FFFFFF;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color: #FE8D00;
+  background: -webkit-linear-gradient (to bottom, #FE8D00, #FFA820);
+  background:    -moz-linear-gradient (to bottom, #FE8D00, #FFA820);
+  background:      -o-linear-gradient (to bottom, #FE8D00, #FFA820);
+  background:         linear-gradient (to bottom, #FE8D00, #FFA820);
+  width: 100%;
+  height: 40px;
+  top: 110px;
+  position: absolute;
+}
+
+.nav-list {
+  margin-left: 200px;
+}
+
+.nav-item {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #EBEABC;
+}
+
+.main-section {
   background-color: #F5F4F0;
   height: 1000px;
   width: 100%;
@@ -13,38 +152,4 @@
 .footer {
   background-color: #2F3237;
   height: 300px;
-}
-
-.asphalt-paving {
-  background-color: #3F4247;
-  height: 500px;
-  width: 1000px;
-  margin: 0 auto;
-  z-index: -1;
-}
-
-.main-div {
-  background-color: #FFFFFF;
-  width: 1000px;
-  height: 500px;
-  margin: 0 auto;
-}
-
-.img-div {
-  background-color: black;
-  width: 800px;
-  height: 500px;
-  margin: 0 auto;
-  position: relative;
-  top: 200px;
-}
-
-.navigation {
-  background-color: #FE8D00;
-  background: -webkit-linear-gradient (#FE8D00, #FFA820);
-  background:    -moz-linear-gradient (#FE8D00, #FFA820);
-  background:      -o-linear-gradient (#FE8D00, #FFA820);
-  background:         linear-gradient (#FE8D00, #FFA820);
-  width: 100%;
-  height: 50px;
 }
