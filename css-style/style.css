@@ -20,6 +20,7 @@
   height: 500px;
   width: 1000px;
   margin: 0 auto;
+  z-index: -1;
 }
 
 .main-div {
@@ -27,4 +28,23 @@
   width: 1000px;
   height: 500px;
   margin: 0 auto;
+}
+
+.img-div {
+  background-color: black;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+.navigation {
+  background-color: #FE8D00;
+  background: -webkit-linear-gradient (#FE8D00, #FFA820);
+  background:    -moz-linear-gradient (#FE8D00, #FFA820);
+  background:      -o-linear-gradient (#FE8D00, #FFA820);
+  background:         linear-gradient (#FE8D00, #FFA820);
+  width: 100%;
+  height: 50px;
 }
