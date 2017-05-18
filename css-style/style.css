@@ -38,11 +38,11 @@ body {
   *zoom: 1;
 }
 
-/* Main heading
- */
+/* Main heading */
  h1 {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
+  font-weight: 300;
  }
 
  /* Secondary heading */
@@ -51,7 +51,19 @@ body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
+  color: #9D9D9D;
  }
+
+ /* links */
+  a {
+   text-decoration: none;
+  }
+
+  a:hover {
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+  }
+
 
 /* Upper section which contains navigation bar,logo and main image */
 
@@ -80,6 +92,7 @@ body {
   margin: 0;
   padding: 50px 0 0 20px;
   font-weight: 800;
+  text-shadow: 1px 3px 5px black;
 }
 
 .top-right {
@@ -88,8 +101,13 @@ body {
 }
 .top-right-txt {
   display: inline-block;
-  margin: 0 5px 0 0;
   color: #AFAFAD;
+  padding: 0 7px 0 7px;
+  margin: 0;
+}
+
+.top-right-txt:first-child {
+  border-right: 0.5px solid;
 }
 
 .top-right-txt:last-child {
@@ -97,12 +115,11 @@ body {
 }
 
 .top-right-link {
-  text-decoration: none;
-    color: #AFAFAD;
+  color: #AFAFAD;
 
 }
 .img-div {
-  background-color: black;
+  background: black;
   width: 800px;
   height: 400px;
   margin: 0 auto;
@@ -110,15 +127,8 @@ body {
   top: 180px;
 }
 
-.main-div {
-  background-color: #FFFFFF;
-  width: 900px;
-  height: 500px;
-  margin: 0 auto;
-}
-
 .navigation {
-  background-color: #FE8D00;
+  background: #FE8D00;
   background: -webkit-linear-gradient (to bottom, #FE8D00, #FFA820);
   background:    -moz-linear-gradient (to bottom, #FE8D00, #FFA820);
   background:      -o-linear-gradient (to bottom, #FE8D00, #FFA820);
@@ -130,17 +140,27 @@ body {
 }
 
 .nav-list {
-  margin-left: 200px;
+  float: left;
+  margin: 0 0 0 200px;
 }
 
 .nav-item {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 25px;
+  padding-top: 12px;
 }
 
 .nav-link {
-  text-decoration: none;
   color: #EBEABC;
+  text-shadow: 1px 1px #FFA820;
+}
+.nav-social-div {
+  margin-right: 230px;
+}
+.nav-item-social {
+  float: right;
+  display: inline-block;
+  margin: 10px 5px 0 0;
 }
 
 .main-section {
@@ -148,6 +168,16 @@ body {
   height: 1000px;
   width: 100%;
 }
+
+.main-div {
+  background-color: #FFFFFF;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+
 
 .footer {
   background-color: #2F3237;
