@@ -64,46 +64,53 @@ body {
     border-bottom-color: white;
   }
 
-
-/* Upper section which contains navigation bar,logo and main image */
-
-.upper-section {
-  background-color: #2F3237;
-  height: 500px;
+.top-row-outter {
   width: 100%;
+  height: 105px;
+  background-color: #2F3237;
+  position: absolute;
 }
 
-.asphalt-paving {
-  background-color: #3F4247;
-  height: 500px;
+.wrapper {
   width: 900px;
+  height: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
-#p-logo {
-  margin: 30px 0 0 50px;
+.top-row-inner {
+  width: 100%;
+  background-color: #3F4247;
   float: left;
 }
 
-#p-logo-txt {
-  color: #FFFEFF;
-  font-size: 20px;
+.top-left {
   float: left;
-  margin: 0;
-  padding: 50px 0 0 20px;
-  font-weight: 800;
-  text-shadow: 1px 3px 5px black;
+  margin: 20px 20px;
 }
 
 .top-right {
   float: right;
-  margin-top: 50px;
+  margin: 43px 20px;
 }
+
+.p-logo {
+  float: left;
+}
+
+.p-logo-txt {
+  color: #FFFEFF;
+  font-size: 20px;
+  float: left;
+  font-weight: 800;
+  text-shadow: 1px 3px 5px black;
+}
+
 .top-right-txt {
   display: inline-block;
   color: #AFAFAD;
-  padding: 0 7px 0 7px;
   margin: 0;
+  padding-right: 7px;
 }
 
 .top-right-txt:first-child {
@@ -111,7 +118,6 @@ body {
 }
 
 .top-right-txt:last-child {
-  margin-right: 50px;
 }
 
 .top-right-link {
@@ -135,8 +141,7 @@ body {
   background:         linear-gradient (to bottom, #FE8D00, #FFA820);
   width: 100%;
   height: 40px;
-  top: 110px;
-  position: absolute;
+  float: left;
 }
 
 .nav-list {
@@ -162,22 +167,6 @@ body {
   display: inline-block;
   margin: 10px 5px 0 0;
 }
-
-.main-section {
-  background-color: #F5F4F0;
-  height: 1000px;
-  width: 100%;
-}
-
-.main-div {
-  background-color: #FFFFFF;
-  width: 900px;
-  height: 500px;
-  margin: 0 auto;
-}
-
-
-
 
 .footer {
   background-color: #2F3237;
