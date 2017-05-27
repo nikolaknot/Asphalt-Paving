@@ -105,12 +105,12 @@ h2 {
 
 .top-left {
   float: left;
-  margin: 20px 20px;
+  margin: 20px 0 20px 50px;
 }
 
 .top-right {
   float: right;
-  margin: 43px 20px;
+  margin: 43px 50px 43px 0;
 }
 
 .p-logo {
@@ -148,7 +148,7 @@ h2 {
 }
 
 .img-div {
-  background: black;
+  background-image: url(../images/paving-machine.jpg);
   width: 800px;
   height: 400px;
   position: absolute;
@@ -156,15 +156,20 @@ h2 {
   top: 50px;
 }
 
+.nav-inner {
+  width: 900px;
+}
+
 .nav-list {
   float: left;
   margin: 0;
-  padding: 13px 0 13px 20px;
+  padding: 13px 0 13px 50px;
+  float: left;
 }
 
 .nav-item {
   display: inline;
-  padding-right: 35px;
+  padding-right: 21px;
 }
 
 .nav-link {
@@ -172,13 +177,18 @@ h2 {
   text-shadow: 1px 1px #FFA820;
 }
 
-.nav-social-div {
-  margin-right: 230px;
-}
-.nav-item-social {
+.nav-social {
   float: right;
-  display: inline-block;
-  margin: 10px 5px 0 0;
+  margin-right: 50px;
+}
+
+i {
+  color: white;
+  padding: 13px 3px 13px 0;1
+}
+
+i:last-child {
+  padding-right: 0px;
 }
 
 .footer {
