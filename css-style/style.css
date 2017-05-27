@@ -46,8 +46,7 @@ body {
  }
 
  /* Secondary heading */
-
- h2 {
+h2 {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
@@ -71,17 +70,37 @@ body {
   position: absolute;
 }
 
+.nav-outter {
+  background: #FE8D00;
+  background: -webkit-linear-gradient(#FE8D00, #FFA820);
+  background:    -moz-linear-gradient(#FE8D00, #FFA820);
+  background:      -o-linear-gradient(#FE8D00, #FFA820);
+  background:         linear-gradient(#FE8D00, #FFA820);
+  width: 100%;
+  position: absolute;
+  top: 105px;
+  height: 40px;
+}
+
+.bottom-row-outter {
+  background-color: #2F3237;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 145px;
+}
+
 .wrapper {
   width: 900px;
   height: 100%;
   margin: 0 auto;
-  position: relative;
 }
 
 .top-row-inner {
   width: 100%;
   background-color: #3F4247;
   float: left;
+  position: relative;
 }
 
 .top-left {
@@ -117,48 +136,42 @@ body {
   border-right: 0.5px solid;
 }
 
-.top-right-txt:last-child {
-}
-
 .top-right-link {
   color: #AFAFAD;
-
 }
+
+.bottom-inner-row {
+  height: 400px;
+  background-color: #3F4247;
+  position: relative;
+  top: 145px;
+}
+
 .img-div {
   background: black;
   width: 800px;
   height: 400px;
-  margin: 0 auto;
-  position: relative;
-  top: 180px;
-}
-
-.navigation {
-  background: #FE8D00;
-  background: -webkit-linear-gradient (to bottom, #FE8D00, #FFA820);
-  background:    -moz-linear-gradient (to bottom, #FE8D00, #FFA820);
-  background:      -o-linear-gradient (to bottom, #FE8D00, #FFA820);
-  background:         linear-gradient (to bottom, #FE8D00, #FFA820);
-  width: 100%;
-  height: 40px;
-  float: left;
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
 
 .nav-list {
   float: left;
-  margin: 0 0 0 200px;
+  margin: 0;
+  padding: 13px 0 13px 20px;
 }
 
 .nav-item {
-  display: inline-block;
-  padding-right: 25px;
-  padding-top: 12px;
+  display: inline;
+  padding-right: 35px;
 }
 
 .nav-link {
   color: #EBEABC;
   text-shadow: 1px 1px #FFA820;
 }
+
 .nav-social-div {
   margin-right: 230px;
 }
