@@ -172,9 +172,8 @@ h1,h2,h3,h4,h5,h6 {
   height: 60px;
   width: 500px;
   background-color: white;
-  position: absolute;
-  top: 338px;
-  left: 150px;
+  margin: 0 auto;
+  margin-top: 340px;
 }
 
 .content-container {
@@ -200,4 +199,28 @@ h1,h2,h3,h4,h5,h6 {
 .content-txt {
   color: #B4B4B4;
   line-height: 1.5;
+  text-shadow: 1px 1px 0px #A2A2A2;
+}
+
+.content-btn-link {
+  float: left;
+}
+
+.content-btn {
+  background-color: #F4A320;
+  border: 2px solid #F39910;
+  border-radius: 2px;
+}
+
+.content-btn-txt {
+  float: left;
+  color: white;
+  font-weight: 600;
+  margin: 7px 5px;
+}
+
+.content-btn-icon {
+  color: white;
+  float: left;
+  margin: 6px 5px 0 0;
 }
