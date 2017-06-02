@@ -224,3 +224,34 @@ h1,h2,h3,h4,h5,h6 {
   float: left;
   margin: 6px 5px 0 0;
 }
+
+.form-div {
+  background-color: #2F3237;
+  margin-top: 80px;
+}
+
+.form-txt-wrap {
+  float: left;
+}
+
+.form-header {
+  font-size: 20px;
+}
+
+.form-txt {
+  color: white;
+}
+
+.form-link {
+  float: right;
+}
+
+.form-btn {
+  background-color: #F5A220;
+  border-radius: 25px;
+}
+
+.form-btn-txt {
+  padding: 15px 30px;
+  font-size: 16px;
+}
