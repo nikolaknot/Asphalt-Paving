@@ -58,6 +58,17 @@ body {
   font-weight: 400;
 }
 
+.fourth-heading {
+  color: black;
+  font-weight: 800;
+}
+
+.fifth-heading {
+  color: black;
+  font-weight: 800;
+  margin: 0;
+}
+
  /* links */
 a {
   text-decoration: none;
@@ -198,7 +209,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .content-txt {
   color: #B4B4B4;
-  line-height: 1.5;
+  line-height: 1.6;
   text-shadow: 1px 1px 0px #A2A2A2;
 }
 
@@ -228,6 +239,8 @@ h1,h2,h3,h4,h5,h6 {
 .form-div {
   background-color: #2F3237;
   margin-top: 80px;
+  margin-bottom: 80px;
+  border: 4px solid #191E22;
 }
 
 .form-txt-wrap {
@@ -254,4 +267,42 @@ h1,h2,h3,h4,h5,h6 {
 .form-btn-txt {
   padding: 15px 30px;
   font-size: 16px;
+}
+
+.media {
+  float: left;
+  max-width: 300px;
+}
+
+.media-img {
+  float: left;
+}
+
+.media-txt {
+  float: left;
+  margin-left: 20px;
+}
+
+.media-date {
+  margin: 0;
+  color: #DFA335;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.media-paragraph {
+  max-width: 167px;
+}
+
+.margin-container {
+  margin-bottom: 30px;
+}
+
+.btn-margin {
+  margin-top: 30px;
+}
+
+.media-video {
+  margin-left: 40px;
+  border: 4px solid #BBB7B2;
 }
