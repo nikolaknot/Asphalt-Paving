@@ -67,6 +67,7 @@ body {
   color: black;
   font-weight: 800;
   margin: 0;
+  text-align: left;
 }
 
  /* links */
@@ -219,7 +220,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .content-btn {
   background-color: #F4A320;
-  border: 2px solid #F39910;
+  border: 3px solid #F39910;
   border-radius: 2px;
 }
 
@@ -271,7 +272,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .media {
   float: left;
-  max-width: 300px;
 }
 
 .media-img {
@@ -279,8 +279,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .media-txt {
+  width: 170px;
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .media-date {
@@ -291,7 +292,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .media-paragraph {
-  max-width: 167px;
 }
 
 .margin-container {
@@ -305,4 +305,33 @@ h1,h2,h3,h4,h5,h6 {
 .media-video {
   margin-left: 40px;
   border: 4px solid #BBB7B2;
+}
+
+.lists-txt {
+  font-weight: 800;
+  margin: 0;
+  font-size: 15px;
+}
+
+.lists-header {
+  color: #EAAF53;
+  font-weight: 800;
+  margin: 0;
+}
+
+.lists-ul {
+  color: #EAAF53
+}
+
+.lists-li {
+  line-height: 2.5;
+}
+
+.lists-ul .list-li:before {
+  content: "\f105";
+  color: #EAAF53;
+}
+
+.clients-bg {
+  background-color: #E5E4E0;
 }
