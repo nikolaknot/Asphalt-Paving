@@ -335,3 +335,43 @@ h1,h2,h3,h4,h5,h6 {
 .clients-bg {
   background-color: #E5E4E0;
 }
+
+.client-img {
+  margin-right: 11px;
+  margin-bottom: 40px;
+}
+
+.client-img:last-child {
+  margin-right: 0;
+}
+
+.client-header {
+  padding-top: 40px;
+}
+
+.footer-bg {
+  background-color: #2F3237;
+  margin-top: 0;
+}
+
+footer {
+  border-top: 2px solid black;
+}
+
+.footer-header {
+  color: #FAB136;
+  text-shadow: 1px 1px 1px #152338;
+  text-align: left;
+}
+
+.footer-txt {
+  color: #B0B2B1;
+}
+
+.footer-content {
+  border-right: 4px solid #5A5E62;
+  border-radius: 1px;
+  margin-top: 50px;
+  margin-left: 0;
+
+}
